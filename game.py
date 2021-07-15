@@ -2,6 +2,9 @@ import pymysql
 from config import host, user, password, db
 import time
 import sys
+import ctypes
+kernel32 = ctypes.windll.kernel32
+kernel32.SetConsoleMode(kernel32.GetStdHandle(-11), 7)
 
 class color:
     Red = '\033[91m'
@@ -33,7 +36,7 @@ def hello():
         try:
             connection = pymysql.connect(
                 host=host,
-                port=3306,
+                port=38719,
                 user=user,
                 password=password,
                 database=db,
@@ -78,7 +81,9 @@ def hello():
                 connection.close()
         except Exception as ex:
             print(color.Red + "Произошла ошибка." + color.END)
-            # print(ex)
+            print(ex)
+            return hello()
+
 
     elif hello_message == '2':
         print(color.White + "Регистрация:" + color.END)
@@ -93,7 +98,7 @@ def hello():
         try:
             connection = pymysql.connect(
                 host=host,
-                port=3306,
+                port=38719,
                 user=user,
                 password=password,
                 database=db,
@@ -140,7 +145,9 @@ def hello():
                 connection.close()
         except Exception as ex:
             print(color.Red + "Произошла ошибка." + color.END)
-            # print(ex)
+            print(ex)
+            return hello()
+
 
     elif hello_message == '3':
         print()
@@ -319,7 +326,7 @@ def monsters():
             # update data
             connection = pymysql.connect(
                 host=host,
-                port=3306,
+                port=38719,
                 user=user,
                 password=password,
                 database=db,
@@ -357,7 +364,7 @@ def monsters():
                 # update data
                 connection = pymysql.connect(
                     host=host,
-                    port=3306,
+                    port=38719,
                     user=user,
                     password=password,
                     database=db,
