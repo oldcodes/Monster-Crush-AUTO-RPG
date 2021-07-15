@@ -1,0 +1,2 @@
+- name: Setup MySQL
+  uses: mirromutth/mysql-action@v1.1
