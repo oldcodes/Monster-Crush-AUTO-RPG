@@ -10,7 +10,7 @@ Monster Crush AUTO RPG - это полностью консольная авто
 
 ## Как играть?
 >**Перед началом началом использования рекомендуется в консоли сменить фон на черный.**
->>Смотрите инструкцию [здесь](#инструкция)
+>>Смотрите инструкцию [здесь](https://github.com/MyEasySite/Monster-Crush-AUTO-RPG/blob/main/CONSOLE%20INSTRUCTIONS.md)
 
 При запуске предлагается авторизация или регистрация аккаунта, это значит что создав аккаунт однажды, можно будет использовать его неограниченное количество раз.
 
@@ -34,29 +34,3 @@ Monster Crush AUTO RPG - это полностью консольная авто
 <a name="Целевая аудитория"></a> 
 ## Целевая аудитория
 Офисные работники, старшие школьники и студенты, имеющие свободный доступ к компьютеру, а также мечту об становлении авантюристом, независимо от пола.
-
-
-## Инструкция по смене фона в консоли
-1. Запустите командную строку.
-
-<img src="screenshots/Change-Colours-in-Command_1.jpg" width="450" height="350"/>
-
-2. Щелкните сверху правой кнопкой мыши.
-
-<img src="screenshots/Change-Colours-in-Command_2.jpg" width="450" height="350"/>
-
-3. Выберите «Свойства».
-
-<img src="screenshots/Change-Colours-in-Command_3jpg.jpg" width="450" height="350"/>
-
-4. Перейдите на вкладку «Цвета».
-
-<img src="screenshots/Change-Colours-in-Command_4.jpg" width="450" height="350"/>
-
-5. Выберите черный фон.
-
-<img src="screenshots/Change-Colours-in-Command_5.jpg" width="450" height="350"/>
-
-6. Щелкните по кнопке «OK» для сохранения изменений.
-
-<img src="screenshots/Change-Colours-in-Command_6.jpg" width="450" height="350"/>
